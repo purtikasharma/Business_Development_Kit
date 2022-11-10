@@ -26,7 +26,7 @@ public class MouseHoverOnSearch {
 	}
 	
 	@Test
-	public void Launch() throws InterruptedException
+	public void Search() throws InterruptedException
 	{
 		driver.get(URL.url);
 		WebElement Create = driver.findElement(By.linkText("Search"));
